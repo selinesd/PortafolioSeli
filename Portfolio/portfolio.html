@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Digital</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: beige;
+        }
+        .section-header {
+            color: brown;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        .card-section {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            border: none;
+        }
+        .card-section:hover {
+            transform: scale(1.05);
+        }
+        .btn-download {
+            color: white;
+            background-color: lightslategray;
+        }
+        .navbar-dark .navbar-nav .nav-link {
+            color: rgba(255,255,255,.8);
+            transition: color 0.2s;
+        }
+        .navbar-dark .navbar-nav .nav-link:hover {
+            color: white;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav ul li {
+            margin: 0 1rem;
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        section {
+            padding: 2rem;
+            margin: 1rem auto;
+            width: 80%;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        section h2 {
+            color: #333;
+            margin-bottom: 1rem;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-dark text-white text-center py-4">
+        <h1>Portafolio Digital La Fundita</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#estudios">Estudios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#personalidad">Sobre mí</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#experiencia">Experiencia</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#capacidades">Capacidades</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#curriculo">Currículo</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+<section id="proyectos" class="mb-5">
+    <h2 class="text-center">Proyectos</h2>
+    <p class="text-center">A continuación. se mostraran algunos de mis proyectos.</p>
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Formulario General</h5>
+                    <p class="card-text">Este fue mi primer formulario que consistió en simplemente ingresar los datos y comprobar que se guarden en la base de datos.</p>
+                    <img src="registrar.png" class="card-img-top" alt="Proyecto 1">
+                </div>
+            </div>
+        </div>
+        <!-- Proyecto 2 -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Formulario de Banco</h5>
+                    <p class="card-text">Este formulario es para renta y/o venta de una casa.</p>
+                </div>
+                <img src="BancoUno.png" class="card-img-top" alt="Proyecto 2">
+                <img src="BancoDos.png" class="card-img-top" alt="Proyecto 2">
+            </div>
+        </div>
+        <!-- Proyecto 3 -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Nomina de Empleados</h5>
+                    <p class="card-text">Es un formulario que sirve para ingresar los datos de sus empleados, para luego visualizarlo en una tabla como administrador.</p>
+                    <img src="Nomina.png" class="card-img-top" alt="Proyecto 3">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section id="estudios" class="mb-5">
+            <h2 class="section-header">Estudios</h2>
+            <div class="card card-section mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Formación Académica</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-check-circle text-info"></i> Desarrollador de JavaScript (Node JS) - Fundación Carlos Slim</li>
+                        <li><i class="fas fa-check-circle text-info"></i> Técnico en Desarrollo y Administración de Aplicaciones Informáticas - CEPVA.</li>
+                    </ul>
+                    <a href="Certificado.pdf" download class="btn btn-download">Certificado de Desarrolladora en JavaScript</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="personalidad" class="mb-5">
+            <h2 class="section-header">Sobre mí</h2>
+            <div class="card card-section mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">¿Quién soy?</h5>
+                    <p class="card-text">Mi nombre es Seliné Sánchez Díaz, me considero una persona responsable, con ambición, ganas de aprender y de mejorar cada día. 
+                        He trabajado en equipo e individual y an ambas maneras he demostrado que tengo la capacidad para lo que me propongo.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experiencia" class="mb-5">
+            <h2 class="section-header">Experiencia</h2>
+            <div class="card card-section mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Experiencia Laboral</h5>
+                        <li><i class="fas fa-check-circle text-info"></i> Auto Repuestos "El Altisimo" - Recursos Humanos</li>
+                        <li><i class="fas fa-check-circle text-info"></i> Pro-Consumidor - Departamento de Tecnología (Pasante)</li>
+                </div>
+            </div>
+        </section>
+
+        <section id="capacidades" class="mb-5">
+            <h2 class="section-header">Capacidades</h2>
+            <div class="card card-section mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Capacidades en el area de trabajo</h5>
+                    <li><i class="fas fa-check-circle text-info"></i> Rapidez y eficacia.</li>
+                    <li><i class="fas fa-check-circle text-info"></i> Resolucion de problemas.</li>
+                    <li><i class="fas fa-check-circle text-info"></i> Liderazgo.</li>
+                </div>
+            </div>
+        </section>
+
+        <section id="curriculo" class="mb-5">
+            <h2 class="section-header">Currículo</h2>
+            <div class="card card-section mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Mi Currículo</h5>
+                    <p class="card-text">A continuación puede descargar mi currículo (en ingles y en español) para más información</p>
+                    <a href="SpanishCurriculum.pdf" download class="btn btn-download">Descargar Currículo</a>
+                    <a href="EnglishCurriculum.pdf" download class="btn btn-download">Download Curriculum</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 -Portafolio Digital La Fundita</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script> 
+</body>
+</html>
