@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: #221C35;
+	width: 100%;
+}
+
+font{
+	color: aqua;
+	font-size: 40px;
+	text-align: center;
+}
+
+li{
+	color: white;
+	text-align: left;
+	font-size: 15px;
+}
+
+ul{
+	color: white;
+	font-size: 15px;
+}
+
+buttom{
+	align: center;
+	background-color: #00FBFF;
+	color: black;
+	font-size: 5ch;
+	border-radius: 10px;
+	margin: 5px;
+	cursor: pointer; 
+}
+
+font1{
+	font-size: 20px;
+	
+}
+

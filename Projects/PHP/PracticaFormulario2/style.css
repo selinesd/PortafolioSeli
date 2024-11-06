@@ -1,0 +1,158 @@
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        background-color: rgb(17, 51, 23);
+        color: #fff;
+    }
+
+    .Baner{
+            position: absolute;
+            width: 960px;
+            height: 90px;
+            background-color: white;
+        
+    }
+
+    .Princi{
+        position: relative;
+        z-index: 1;
+        left: 628px;
+        bottom: 0px;
+        font-size: 1.5rem;
+        font-weight: lighter;
+        color: black;
+    }
+
+    .Principal{
+        position: relative;
+        left: 750px;
+        top: 28px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: black;
+    }
+
+    .linea{
+        position: absolute;
+        z-index: 1;
+        top: 1px;
+        left: 590px;
+        width: 5px;
+        height: 90px;
+        transform: rotate(180deg);
+        background-color: #333;
+    }
+
+    .name{
+        position: absolute;
+        left: 510px;
+        bottom: 615px;
+        font-size: 1rem;
+        font-weight: bold;
+        color: black;
+    }
+
+    .nombre{
+        position: absolute;
+        left: 510px;
+        bottom: 595px;
+        font-size: 0.6rem;
+        font-weight: bold;
+        color: black;
+    }
+
+.square{
+    position: absolute;
+    width: 385px;
+    height: 200px;
+    background-color: rgb(17, 51, 23);
+}
+
+#imagen{
+    z-index: 1;
+    position: absolute;
+    top: 8px;
+    left: 410px;
+    width: 100px;
+    height: 80px;
+}
+
+    .container {
+        width: 100%;
+        max-width: 600px;
+        margin: 40px auto;
+        background-color: rgb(17, 51, 23);
+        padding: 20px;
+        border-radius: 8px;
+    }
+    
+    .header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .header h1 {
+        font-size: 24px;
+    }
+    
+    .header h2 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    
+    .form-group {
+        margin-bottom: 15px;
+    }
+    
+    label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 8px;
+        border: none;
+        border-radius: 4px;
+        background-color: white;
+        color: #333;
+    }
+    
+    input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        background-color: #2ECC71;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    
+    input[type="submit"]:hover {
+        background-color: #27AE60;
+    }
+    
+    textarea {
+        height: 100px;
+    }
+    
+    input[type="radio"] {
+        margin-right: 5px;
+    }
+    
+    .form-group label.inline {
+        display: inline-block;
+        margin-right: 15px;
+    }
+    
+
+

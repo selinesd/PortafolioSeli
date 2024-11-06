@@ -1,0 +1,10 @@
+<marquee></marquee> - movimiento del texto
+
+propiedades/atributos:
+
+direction (right or left, up or down)
+behavior (scroll - desaparece en los bordes, alternate - rebota de borde a borde)
+scrolldelay (tiempo de retardo en milisegundos)
+scrollamount (espacio entre cada movimiento)
+width (area del texto, desde donde hasta donde)
+height (alto del area del texto)

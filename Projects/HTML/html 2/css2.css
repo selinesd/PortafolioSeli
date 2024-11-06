@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: #221C35;
+	width: 100%;
+	
+}
+
+#banner{
+	margin-bottom:0ch;
+	float:center;
+}
+
+p{
+	text-align: center;
+	color:whitesmoke;
+	font-size: 25px;
+}
+
+buttom{
+	align: center;
+	background-color: #00FBFF;
+	color: black;
+	font-size: 5ch;
+	border-radius: 10px;
+	margin: 5px;
+	cursor: pointer; 
+}
+
+
+
+

@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Marquesinas</title>
+</head>
+
+<body>
+<font color="black" size="20" align="center"><marquee direction="right" behavior="scroll">Derecha sin final</marquee></font><br><br>
+<font color="black" size="20" align="center"><marquee direction="right" behavior="alternate">Derecha con rebote</marquee></font><br><br>
+<font color="black" size="20" align="center"><marquee direction="left" behavior="scroll">Izquierda sin final</marquee></font><br><br>
+<font color="black" size="20" align="center"><marquee direction="left" behavior="alternate">Izquierda con rebote</marquee></font><br><br><br><br>
+
+<font color="black" size="20" align="right"><marquee direction="up" behavior="scroll">Hacia arriba, sin final</marquee></font><br><br>
+<font color="black" size="20" align="right"><marquee direction="down" behavior="scroll">Hacia abajo, sin final</marquee></font>
+<font color="black" size="20" align="left"><marquee direction="up" behavior="alternate">Hacia arriba, rebote</marquee></font><br><br>
+<font color="black" size="20" align="left"><marquee direction="down" behavior="alternate">Hacia abajo, sin final</marquee></font>
+
+</body>
+</html>
